@@ -1,7 +1,7 @@
 # Composite Pattern
 
 ### 목적
-compositie pattern의 사용 목적은 object의 **hierarchies**를 표현하고 각각의 object를 독립적으로 동일한 인터페이스를 통해 처리할 수 있게한다.
+composite pattern의 사용 목적은 object의 **hierarchies**를 표현하고 각각의 object를 독립적으로 동일한 인터페이스를 통해 처리할 수 있게한다.
 
 아래 Composite pattern의 class diagram을 보자
 
@@ -84,7 +84,7 @@ public class Composite extends Component {
 ## Children 관리를 위한 2가지 Composite pattern
 ![composite pattenr](../resources/composite_pattern_1.PNG)
 
-위의 예제로 Component 클래스에 add, removem getChild 같은 method가 선언이 되어있으며 Transparency를 제공한다.
+위의 예제로 Component 클래스에 add, remove, getChild 같은 method가 선언이 되어있으며 Transparency를 제공한다.
 
 장점 : Leaf 클래스와 Composite 클래스를 구분할 필요없이 Component Class로 생각할 수 있다.
 
