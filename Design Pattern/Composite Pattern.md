@@ -102,7 +102,7 @@ public class Composite extends Component {
 ### Decorator
 공통점 : composition이 재귀적으로 발생한다.
 
-차이점 : decorator 패턴은 responsibilites를 추가하는 것이 목표이지만 composite 패턴은 hierarchy를 표현하기 위해서 사용된다.
+차이점 : decorator 패턴은 responsibilities를 추가하는 것이 목표이지만 composite 패턴은 hierarchy를 표현하기 위해서 사용된다.
 
 ### Iterator
 공통점 : aggregate object을 순차적으로 접근한다.
