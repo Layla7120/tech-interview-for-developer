@@ -30,7 +30,7 @@ public class Component {
     }
 }
 ```
-Leaf 클래스와 Compositie 클래스가 상속하는 Component 클래스로 Leaf 클래스에서 사용하지 않는 메소드 호출 시 exception을 발생시키게 구현하였다.
+Leaf 클래스와 Composite 클래스가 상속하는 Component 클래스로 Leaf 클래스에서 사용하지 않는 메소드 호출 시 exception을 발생시키게 구현하였다.
 
 **Leaf 클래스**
 ```java
